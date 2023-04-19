@@ -6,6 +6,14 @@ import RestrictedRoutes from "./routes/RestrictedRoutes";
 import AddExpense from "./components/add-expense/AddExpense";
 import Login from "./components/login/Login";
 
+export const centeredStyle = {
+  width: "100%",
+  height: "100vh",
+  display: "grid",
+  placeItems: "center",
+  background: "dodgerblue",
+};
+
 function App() {
   return (
     <Routes>
